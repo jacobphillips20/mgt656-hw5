@@ -5,8 +5,8 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
-app.get('/clear-horse', function(request, response){
-    response.send('Hello MGT-656!');
+app.get('/nickname', function(request, response){
+    response.send('Clear horse!');
 });
 
 app.listen(process.env.PORT || 4000);
